@@ -13,4 +13,10 @@ body {
   background-color: #000000;
   color: rgb(117, 250,76);
 }
+img {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 </style>
