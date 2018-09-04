@@ -1,18 +1,17 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home" @click="start">
+    <img alt="Vue logo" src="../assets/duck.0.png">
+    <p>Tap to begin</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'home',
-  components: {
-    HelloWorld
+  methods: {
+    start () {
+      this.$router.push({ path: '/game' })
+    }
   }
 }
 </script>
