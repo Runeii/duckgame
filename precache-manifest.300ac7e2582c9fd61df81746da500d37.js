@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/duckgame/js/chunk-vendors.408a0b51.js"
   },
   {
-    "revision": "5fcc08988685a19f2243",
-    "url": "/duckgame/js/app.0183f0d8.js"
+    "revision": "e78560e2368059115886",
+    "url": "/duckgame/js/app.a51596f8.js"
   },
   {
     "revision": "04e03b827a0001b71c83",
     "url": "/duckgame/js/about.5ef8ecb8.js"
   },
   {
-    "revision": "6a4ed3d0f10c4cf4af4149166e571e51",
+    "revision": "960906c8860fcf44b066501865099057",
     "url": "/duckgame/index.html"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/duckgame/img/384ba7ef0c7f5c8b83121cecd8f26809.d8a03f8a.jpg"
   },
   {
-    "revision": "5fcc08988685a19f2243",
-    "url": "/duckgame/css/app.30d11a04.css"
+    "revision": "e78560e2368059115886",
+    "url": "/duckgame/css/app.0f41c96a.css"
   }
 ];
