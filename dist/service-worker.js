@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.e666f141598942c9af3c0bfcf99432fb.js"
+  "/duckgame/precache-manifest.048a33eba12b4ba78e17721add424561.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "duckgame"});
