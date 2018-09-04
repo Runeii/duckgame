@@ -24,6 +24,7 @@ export default {
   },
   methods: {
     submit () {
+      this.duck_reply = ''
       const options = {
         headers: {
           'X-Mashape-Key': 'GtzH0B8PzkmshTizmQTqGadyOUHHp1euquSjsn7gAZY47UCfLi',
@@ -38,6 +39,7 @@ export default {
   },
   watch: {
     'response': function (newVal) {
+      this.duck_reply = ''
       if (newVal === 'pos') {
         this.duck_reply = 'You are being nice to the duck and he is happy'
       }
